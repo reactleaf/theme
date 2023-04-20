@@ -1,0 +1,21 @@
+{
+  "name": "@reactleaf/theme",
+  "version": "1.0.0",
+  "description": "Theme provider for @reactleaf projects",
+  "main": "index.js",
+  "repository": "https://github.com/reactleaf/theme.git",
+  "author": "양현석 <fourwingsy@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "yarn build"
+  },
+  "dependencies": {
+    "color": "^4",
+    "styled-components": "^5"
+  },
+  "devDependencies": {
+    "@types/color": "^3.0.3",
+    "@types/styled-components": "^5"
+  }
+}
