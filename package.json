@@ -1,6 +1,6 @@
 {
   "name": "@reactleaf/theme",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Theme provider for @reactleaf projects",
   "main": "index.js",
   "repository": "https://github.com/reactleaf/theme.git",
@@ -11,11 +11,10 @@
     "prepublishOnly": "yarn build"
   },
   "dependencies": {
-    "color": "^4",
+    "colord": "^2.9.3",
     "styled-components": "^5"
   },
   "devDependencies": {
-    "@types/color": "^3.0.3",
     "@types/styled-components": "^5"
   }
 }

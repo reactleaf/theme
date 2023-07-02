@@ -6,20 +6,24 @@ export interface Theme {
 }
 
 export interface ColorTheme {
-  primary: {
-    // Inactive colors
+  grey: {
     100: string
     90: string
     80: string
     70: string
-
-    // Active colors
+    10: string
+  }
+  primary: {
     98: string
     95: string
+    90: string
+    80: string
+    70: string
+    60: string
     50: string
     40: string
+    30: string
     20: string
-    15: string
     10: string
   }
   status: {
@@ -28,6 +32,11 @@ export interface ColorTheme {
     green: string
     blue: string
     grey: string
+    lightRed: string
+    lightYellow: string
+    lightGreen: string
+    lightBlue: string
+    lightGrey: string
   }
 }
 
@@ -36,6 +45,4 @@ export interface TypoTheme {
   title: SimpleInterpolation
   label: SimpleInterpolation
   description: SimpleInterpolation
-  error: SimpleInterpolation
-  link: SimpleInterpolation
 }
