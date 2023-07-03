@@ -2,7 +2,7 @@ import { colord, extend } from "colord"
 import lchPlugin from "colord/plugins/lch"
 import { css } from "styled-components"
 
-import { ColorTheme } from "./theme"
+import { ColorTheme, TypoTheme } from "./theme"
 
 extend([lchPlugin])
 
@@ -22,5 +22,12 @@ export function primary(number: keyof ColorTheme["primary"], alpha: number = 1) 
 export function status(color: keyof ColorTheme["status"], alpha: number = 1) {
   return css`
     ${({ theme }) => colord(theme.colors.status[color]).alpha(alpha).toRgbString()}
+  `
+}
+
+export function typo(key: keyof TypoTheme, color?: string) {
+  return css`
+    ${({ theme }) => theme.typo[key]};
+    ${color && `color: ${color};`};
   `
 }
