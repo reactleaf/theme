@@ -1,0 +1,48 @@
+:root {
+  --leaf-grey-100: lch(100% 2 260);
+  --leaf-grey-90: lch(90% 2 260);
+  --leaf-grey-80: lch(80% 2 260);
+  --leaf-grey-70: lch(70% 2 260);
+  --leaf-grey-10: lch(10% 2 260);
+
+  --leaf-primary-98: lch(98% 3 260);
+  --leaf-primary-95: lch(95% 7.5 260);
+  --leaf-primary-90: lch(90% 15 265);
+  --leaf-primary-80: lch(80% 30 265);
+  --leaf-primary-70: lch(70% 46 270);
+  --leaf-primary-60: lch(60% 62 275);
+  --leaf-primary-50: lch(50% 75 280);
+  --leaf-primary-40: lch(40% 64 280);
+  --leaf-primary-30: lch(30% 53 280);
+  --leaf-primary-20: lch(20% 41 280);
+  --leaf-primary-10: lch(10% 30 280);
+
+  --leaf-status-red: lch(50% 60 30);
+  --leaf-status-yellow: lch(50% 55 90);
+  --leaf-status-green: lch(50% 60 150);
+  --leaf-status-blue: lch(50% 55 270);
+  --leaf-status-grey: lch(50% 0 0);
+
+  --leaf-status-lightRed: lch(95% 8 30);
+  --leaf-status-lightYellow: lch(95% 8 90);
+  --leaf-status-lightGreen: lch(95% 8 150);
+  --leaf-status-lightBlue: lch(95% 8 270);
+  --leaf-status-lightGrey: lch(95% 0 0);
+}
+
+.leaf-title {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+.leaf-body {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.leaf-label {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.leaf-desc {
+  font-size: 0.75rem;
+  line-height: 1.5;
+}

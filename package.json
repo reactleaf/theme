@@ -1,20 +1,25 @@
 {
   "name": "@reactleaf/theme",
-  "version": "1.2.0",
+  "version": "1.2.1-beta.0",
   "description": "Theme provider for @reactleaf projects",
   "main": "index.js",
   "repository": "https://github.com/reactleaf/theme.git",
   "author": "양현석 <fourwingsy@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
+    "build": "yarn build:sc && yarn build:css",
+    "build:sc": "tsc",
+    "build:css": "postcss src/theme.css -o dist/theme.css",
     "prepublishOnly": "yarn build"
   },
   "dependencies": {
     "colord": "^2.9.3"
   },
   "devDependencies": {
-    "@types/styled-components": "^5"
+    "@types/styled-components": "^5",
+    "postcss": "^8.4.29",
+    "postcss-cli": "^10.1.0",
+    "postcss-lab-function": "^6.0.2"
   },
   "peerDependencies": {
     "styled-components": "^5"
