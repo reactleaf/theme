@@ -1,2 +1,8 @@
 src
 examples
+
+# settings
+.prettierrc
+postcss.config.js
+tsconfig.json
+yarn.lock
