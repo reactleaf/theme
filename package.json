@@ -1,6 +1,6 @@
 {
   "name": "@reactleaf/theme",
-  "version": "1.2.1-beta.0",
+  "version": "1.2.1",
   "description": "Theme provider for @reactleaf projects",
   "main": "index.js",
   "repository": "https://github.com/reactleaf/theme.git",
@@ -9,7 +9,7 @@
   "scripts": {
     "build": "yarn build:sc && yarn build:css",
     "build:sc": "tsc",
-    "build:css": "postcss src/theme.css -o dist/theme.css",
+    "build:css": "postcss src/theme.css -o theme.css",
     "prepublishOnly": "yarn build"
   },
   "dependencies": {
