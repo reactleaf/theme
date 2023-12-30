@@ -1,8 +1,8 @@
-const postcssLabFunction = require("postcss-lab-function")
+const postcssOklabFunction = require("@csstools/postcss-oklab-function")
 
 /** @type {import('postcss-load-config').Config} */
 const config = {
-  plugins: [postcssLabFunction],
+  plugins: [postcssOklabFunction],
 }
 
 module.exports = config

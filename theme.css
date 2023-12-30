@@ -1,59 +1,63 @@
 :root {
+  --leaf-status-red: rgb(209, 61, 64);
+  --leaf-status-yellow: rgb(150, 118, 0);
+  --leaf-status-green: rgb(0, 148, 63);
+  --leaf-status-blue: rgb(0, 134, 178);
+  --leaf-status-grey: rgb(122, 122, 122);
+
+  --leaf-status-lightRed: rgb(255, 232, 229);
+  --leaf-status-lightYellow: rgb(246, 238, 216);
+  --leaf-status-lightGreen: rgb(224, 245, 227);
+  --leaf-status-lightBlue: rgb(219, 243, 255);
+  --leaf-status-lightGrey: rgb(238, 238, 238);
+
   --leaf-grey-100: rgb(255, 255, 255);
-  --leaf-grey-90: rgb(224, 227, 230);
-  --leaf-grey-80: rgb(196, 199, 202);
-  --leaf-grey-70: rgb(169, 171, 175);
-  --leaf-grey-10: rgb(26, 28, 30);
+  --leaf-grey-90: rgb(220, 222, 225);
+  --leaf-grey-80: rgb(185, 190, 196);
+  --leaf-grey-70: rgb(152, 159, 168);
+  --leaf-grey-10: rgb(3, 3, 4);
 
-  --leaf-primary-98: rgb(246, 250, 255);
-  --leaf-primary-95: rgb(233, 242, 255);
-  --leaf-primary-90: rgb(212, 228, 255);
-  --leaf-primary-80: rgb(167, 201, 254);
-  --leaf-primary-70: rgb(124, 174, 255);
-  --leaf-primary-60: rgb(77, 145, 254);
-  --leaf-primary-50: rgb(14, 117, 247);
-  --leaf-primary-40: rgb(5, 92, 199);
-  --leaf-primary-30: rgb(0, 69, 153);
-  --leaf-primary-20: rgb(2, 47, 108);
-  --leaf-primary-10: rgb(0, 27, 68);
-
-  --leaf-status-red: rgb(202, 73, 72);
-  --leaf-status-yellow: rgb(137, 118, 0);
-  --leaf-status-green: rgb(0, 137, 71);
-  --leaf-status-blue: rgb(33, 122, 213);
-  --leaf-status-grey: rgb(119, 119, 119);
-
-  --leaf-status-lightRed: rgb(255, 236, 234);
-  --leaf-status-lightYellow: rgb(246, 240, 225);
-  --leaf-status-lightGreen: rgb(229, 245, 233);
-  --leaf-status-lightBlue: rgb(235, 241, 255);
-  --leaf-status-lightGrey: rgb(241, 241, 241);
+  --leaf-primary-98: rgb(244, 249, 255);
+  --leaf-primary-95: rgb(228, 240, 255);
+  --leaf-primary-90: rgb(200, 225, 255);
+  --leaf-primary-80: rgb(143, 193, 255);
+  --leaf-primary-70: rgb(80, 160, 255);
+  --leaf-primary-60: rgb(6, 127, 237);
+  --leaf-primary-50: rgb(10, 98, 184);
+  --leaf-primary-40: rgb(3, 71, 136);
+  --leaf-primary-30: rgb(0, 45, 92);
+  --leaf-primary-20: rgb(1, 22, 49);
+  --leaf-primary-10: rgb(0, 3, 13);
 }
 
 @supports (color: color(display-p3 0 0 0)) {
 :root {
-  --leaf-primary-30: color(display-p3 0.10386 0.26691 0.58026);
-  --leaf-primary-10: color(display-p3 0.0245 0.10276 0.25656);
-  --leaf-status-green: color(display-p3 0.178 0.53772 0.28065);
+  --leaf-status-yellow: color(display-p3 0.58105 0.46311 0);
+  --leaf-status-green: color(display-p3 0.2109 0.57645 0.27109);
+  --leaf-status-blue: color(display-p3 0.20466 0.5178 0.6896);
 
-  --leaf-status-lightRed: color(display-p3 0.99265 0.92807 0.91698);
-  --leaf-status-lightBlue: color(display-p3 0.9254 0.94419 0.99848);
+  --leaf-status-lightRed: color(display-p3 0.99926 0.90899 0.8976);
+  --leaf-status-lightBlue: color(display-p3 0.87265 0.95035 0.99879);
+
+  --leaf-primary-98: color(display-p3 0.96011 0.97565 0.99859);
+  --leaf-primary-80: color(display-p3 0.6007 0.75266 0.98197);
+  --leaf-primary-10: color(display-p3 0.0022 0.01218 0.04714);
 }
 }
 
 .leaf-title {
-  font-size: 1.25rem;
-  line-height: 2rem;
+  font-size: 20px;
+  line-height: 32px;
 }
 .leaf-body {
-  font-size: 1rem;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 24px;
 }
 .leaf-label {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 14px;
+  line-height: 20px;
 }
 .leaf-desc {
-  font-size: 0.75rem;
-  line-height: 1.5;
+  font-size: 12px;
+  line-height: 18px;
 }

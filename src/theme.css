@@ -1,48 +1,48 @@
 :root {
-  --leaf-grey-100: lch(100% 2 260);
-  --leaf-grey-90: lch(90% 2 260);
-  --leaf-grey-80: lch(80% 2 260);
-  --leaf-grey-70: lch(70% 2 260);
-  --leaf-grey-10: lch(10% 2 260);
+  --leaf-status-red: oklch(58% 0.185 24);
+  --leaf-status-yellow: oklch(58% 0.139 90);
+  --leaf-status-green: oklch(58% 0.178 150);
+  --leaf-status-blue: oklch(58% 0.122 230);
+  --leaf-status-grey: oklch(58% 0 0);
 
-  --leaf-primary-98: lch(98% 3 260);
-  --leaf-primary-95: lch(95% 7.5 260);
-  --leaf-primary-90: lch(90% 15 265);
-  --leaf-primary-80: lch(80% 30 265);
-  --leaf-primary-70: lch(70% 46 270);
-  --leaf-primary-60: lch(60% 62 275);
-  --leaf-primary-50: lch(50% 75 280);
-  --leaf-primary-40: lch(40% 64 280);
-  --leaf-primary-30: lch(30% 53 280);
-  --leaf-primary-20: lch(20% 41 280);
-  --leaf-primary-10: lch(10% 30 280);
+  --leaf-status-lightRed: oklch(95% 0.032 24);
+  --leaf-status-lightYellow: oklch(95% 0.031 90);
+  --leaf-status-lightGreen: oklch(95% 0.032 150);
+  --leaf-status-lightBlue: oklch(95% 0.032 230);
+  --leaf-status-lightGrey: oklch(95% 0 0);
 
-  --leaf-status-red: lch(50% 60 30);
-  --leaf-status-yellow: lch(50% 55 90);
-  --leaf-status-green: lch(50% 60 150);
-  --leaf-status-blue: lch(50% 55 270);
-  --leaf-status-grey: lch(50% 0 0);
+  --leaf-grey-100: oklch(100% 0 254);
+  --leaf-grey-90: oklch(90% 0.005 254);
+  --leaf-grey-80: oklch(80% 0.01 254);
+  --leaf-grey-70: oklch(70% 0.015 254);
+  --leaf-grey-10: oklch(10% 0.005 254);
 
-  --leaf-status-lightRed: lch(95% 8 30);
-  --leaf-status-lightYellow: lch(95% 8 90);
-  --leaf-status-lightGreen: lch(95% 8 150);
-  --leaf-status-lightBlue: lch(95% 8 270);
-  --leaf-status-lightGrey: lch(95% 0 0);
+  --leaf-primary-98: oklch(98% 0.01 254);
+  --leaf-primary-95: oklch(95% 0.024 254);
+  --leaf-primary-90: oklch(90% 0.049 254);
+  --leaf-primary-80: oklch(80% 0.104 254);
+  --leaf-primary-70: oklch(70% 0.16 254);
+  --leaf-primary-60: oklch(60% 0.189 254);
+  --leaf-primary-50: oklch(50% 0.154 254);
+  --leaf-primary-40: oklch(40% 0.125 254);
+  --leaf-primary-30: oklch(30% 0.095 254);
+  --leaf-primary-20: oklch(20% 0.061 254);
+  --leaf-primary-10: oklch(10% 0.032 254);
 }
 
 .leaf-title {
-  font-size: 1.25rem;
-  line-height: 2rem;
+  font-size: 20px;
+  line-height: 32px;
 }
 .leaf-body {
-  font-size: 1rem;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 24px;
 }
 .leaf-label {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 14px;
+  line-height: 20px;
 }
 .leaf-desc {
-  font-size: 0.75rem;
-  line-height: 1.5;
+  font-size: 12px;
+  line-height: 18px;
 }

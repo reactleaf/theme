@@ -1,48 +1,53 @@
-import { SimpleInterpolation } from "styled-components"
+import { Oklch } from "culori"
 
 export interface Theme {
   colors: ColorTheme
   typo: TypoTheme
 }
 
+export interface RawTypo {
+  fontSize: number
+  lineHeight: number
+}
+
 export interface ColorTheme {
   grey: {
-    100: string
-    90: string
-    80: string
-    70: string
-    10: string
+    100: Oklch
+    90: Oklch
+    80: Oklch
+    70: Oklch
+    10: Oklch
   }
   primary: {
-    98: string
-    95: string
-    90: string
-    80: string
-    70: string
-    60: string
-    50: string
-    40: string
-    30: string
-    20: string
-    10: string
+    98: Oklch
+    95: Oklch
+    90: Oklch
+    80: Oklch
+    70: Oklch
+    60: Oklch
+    50: Oklch
+    40: Oklch
+    30: Oklch
+    20: Oklch
+    10: Oklch
   }
   status: {
-    red: string
-    yellow: string
-    green: string
-    blue: string
-    grey: string
-    lightRed: string
-    lightYellow: string
-    lightGreen: string
-    lightBlue: string
-    lightGrey: string
+    red: Oklch
+    yellow: Oklch
+    green: Oklch
+    blue: Oklch
+    grey: Oklch
+    lightRed: Oklch
+    lightYellow: Oklch
+    lightGreen: Oklch
+    lightBlue: Oklch
+    lightGrey: Oklch
   }
 }
 
 export interface TypoTheme {
-  body: SimpleInterpolation
-  title: SimpleInterpolation
-  label: SimpleInterpolation
-  description: SimpleInterpolation
+  body: RawTypo
+  title: RawTypo
+  label: RawTypo
+  description: RawTypo
 }
