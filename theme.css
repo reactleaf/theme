@@ -12,6 +12,7 @@
   --leaf-status-lightGrey: rgb(238, 238, 238);
 
   --leaf-grey-100: rgb(255, 255, 255);
+  --leaf-grey-95: rgb(228, 240, 255);
   --leaf-grey-90: rgb(220, 222, 225);
   --leaf-grey-80: rgb(185, 190, 196);
   --leaf-grey-70: rgb(152, 159, 168);
@@ -38,6 +39,7 @@
 
   --leaf-status-lightRed: color(display-p3 0.99926 0.90899 0.8976);
   --leaf-status-lightBlue: color(display-p3 0.87265 0.95035 0.99879);
+  --leaf-grey-95: color(display-p3 0.90054 0.93901 0.9959);
 
   --leaf-primary-98: color(display-p3 0.96011 0.97565 0.99859);
   --leaf-primary-80: color(display-p3 0.6007 0.75266 0.98197);

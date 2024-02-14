@@ -17,6 +17,7 @@ const statusColors: ColorTheme["status"] = {
 
 const greyColors: ColorTheme["grey"] = {
   100: oklch({ mode: "oklch", l: 100, c: 0, h: 254 }),
+  95: oklch({ mode: "oklch", l: 95, c: 0.0025, h: 254 }),
   90: oklch({ mode: "oklch", l: 90, c: 0.005, h: 254 }),
   80: oklch({ mode: "oklch", l: 80, c: 0.01, h: 254 }),
   70: oklch({ mode: "oklch", l: 70, c: 0.015, h: 254 }),

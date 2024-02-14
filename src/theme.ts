@@ -13,6 +13,7 @@ export interface RawTypo {
 export interface ColorTheme {
   grey: {
     100: Oklch
+    95: Oklch
     90: Oklch
     80: Oklch
     70: Oklch

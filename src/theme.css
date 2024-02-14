@@ -12,6 +12,7 @@
   --leaf-status-lightGrey: oklch(95% 0 0);
 
   --leaf-grey-100: oklch(100% 0 254);
+  --leaf-grey-95: oklch(95% 0.025 254);
   --leaf-grey-90: oklch(90% 0.005 254);
   --leaf-grey-80: oklch(80% 0.01 254);
   --leaf-grey-70: oklch(70% 0.015 254);
